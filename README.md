@@ -127,3 +127,18 @@ For each endpoint, if authentication is required, remember to add the `Authoriza
 ```plaintext
 Authorization: Bearer <Your_JWT_Token>
 ```
+
+## Setup This Project 
+
+```plaintext
+git clone Task-Management-Api
+```
+```plaintext
+cd Task-Management-Api
+```
+```plaintext
+npm install
+```
+```plaintext
+node server.js
+```
