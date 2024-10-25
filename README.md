@@ -5,6 +5,7 @@
 Design and implement a backend for a task management system where users can create tasks, set priorities, assign deadlines, and collaborate with other users in teams. The system will support task categorization, filtering, and sorting based on various criteria, as well as managing tasks with dependencies. Users will receive notifications for overdue tasks and those approaching deadlines.
 
 
+
 ## API Endpoints
 ### **Auth Routes**
  - **URL**: `/api/auth/register`
@@ -121,6 +122,7 @@ Design and implement a backend for a task management system where users can crea
        "name": "Updated Team Name"
      }
      ```
+![image](https://github.com/user-attachments/assets/f4e12141-2508-49b6-b723-e35e059592c8)
 
 ## Authentication
 For each endpoint, if authentication is required, remember to add the `Authorization` header with your token in your requests:
