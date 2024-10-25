@@ -1,4 +1,5 @@
 # Task Management API with Priority, Deadlines, and Team Collaboration
+![image](https://github.com/user-attachments/assets/ba3ef80a-af8a-4918-97f7-823c929f15d7)
 
 ## Overview
 Design and implement a backend for a task management system where users can create tasks, set priorities, assign deadlines, and collaborate with other users in teams. The system will support task categorization, filtering, and sorting based on various criteria, as well as managing tasks with dependencies. Users will receive notifications for overdue tasks and those approaching deadlines.
