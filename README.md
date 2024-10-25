@@ -11,11 +11,11 @@ Design and implement a backend for a task management system where users can crea
  - **URL**: `/api/auth/register`
    - **Body**:
     ```json
-    { "name": "John Doe","email": "johndoe@example.com","password": "YourSecurePassword123"}
+    { "name": "Sarim Khan","email": "sarimkhan@example.com","password": "YourSecurePassword123"}
  - **URL**: `/api/auth/login`
    - **Body**:
      ```json
-     {"email": "johndoe@example.com", "password": "YourSecurePassword123"
+     {"email": "sarimkhan@example.com", "password": "YourSecurePassword123"
      }
     
 ### **Task Routes**
