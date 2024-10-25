@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      color: #f4f4f9;
+      font-size: 3em;
+      margin-bottom: 50px;
+    }
+
+    .route {
+      background: rgba(0, 0, 0, 0.7); /* Transparent black background */
+      border: 1px solid #0073e6;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .route h2 {
+      margin-top: 0;
+      color: #ffcc00;
+      font-size: 1.5em;
+    }
+
+    .route p {
+      margin: 10px 0;
+    }
+
+    .route code {
+      background: #333;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    
+    /* Button styling for the example routes */
+    button {
+      background-color: #ffcc00;
+      color: #333;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e6b800;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>API Routes</h1>
+
+  <div class="route">
+    <h2>Authentication</h2>
+    <p><strong>POST</strong> <code>/api/auth/register</code> - Register a new user</p>
+    <p><strong>POST</strong> <code>/api/auth/login</code> - Log in an existing user</p>
+  </div>
+
+  <div class="route">
+    <h2>Tasks</h2>
+    <p><strong>GET</strong> <code>/api/tasks</code> - Get all tasks</p>
+    <p><strong>POST</strong> <code>/api/tasks</code> - Create a new task</p>
+    <p><strong>GET</strong> <code>/api/tasks/:id</code> - Get a specific task by ID</p>
+    <p><strong>PUT</strong> <code>/api/tasks/:id</code> - Update a specific task by ID</p>
+    <p><strong>DELETE</strong> <code>/api/tasks/:id</code> - Delete a specific task by ID</p>
+  </div>
+
+  <div class="route">
+    <h2>Teams</h2>
+    <p><strong>GET</strong> <code>/api/teams</code> - Get all teams</p>
+    <p><strong>POST</strong> <code>/api/teams</code> - Create a new team</p>
+    <p><strong>GET</strong> <code>/api/teams/:id</code> - Get a specific team by ID</p>
+    <p><strong>PUT</strong> <code>/api/teams/:id</code> - Update a specific team by ID</p>
+    <p><strong>DELETE</strong> <code>/api/teams/:id</code> - Delete a specific team by ID</p>
+  </div>
+
+</body>
+</html>
