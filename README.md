@@ -8,22 +8,14 @@ Design and implement a backend for a task management system where users can crea
 ### **Auth Routes**
  - **URL**: `/api/auth/register`
    - **Body**:
-     ```json
-     {
-  "name": "John Doe",
-  "email": "johndoe@example.com",
-  "password": "YourSecurePassword123"
-     }
-     ```
+    ```json
+    { "name": "John Doe","email": "johndoe@example.com","password": "YourSecurePassword123"}
  - **URL**: `/api/auth/login`
    - **Body**:
      ```json
-     {
-
-  "email": "johndoe@example.com",
-  "password": "YourSecurePassword123"
+     {"email": "johndoe@example.com", "password": "YourSecurePassword123"
      }
-     ```
+    
 ### **Task Routes**
 
 #### 1. **Create a New Task**
